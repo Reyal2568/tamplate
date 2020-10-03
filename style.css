@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ body{
+ 	background-image: url(images/photo.jfif);
+    background-size: cover;
+ 	position: center;
+ 	width: 100vh;
+ 	color: white;
+
+
+ }
+.logbox{
+	width: 400px;
+	height: 600px;
+	background: rgba(33, 79, 53, 0.60);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	border-radius:35px;
+	
+}
+.logimg{
+	
+	margin-left: 20px;
+}
+.logimg img{
+  margin-top: -50px;
+}
+.logbox h1{
+	text-align: center;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 20px 10px 20px 10px;
+}
+.logbox h1:hover{
+	text-align: right;
+	color: white;
+	letter-spacing: 10px;
+	padding: left;
+	transition: 6s;
+}
+.inputarea{
+	margin-top: 20px;
+	border: 2px white;
+	padding:  0px 30px;
+
+}
+ input{
+	width: 100%;
+	height: 30px;
+	background: transparent;
+	border: none;
+	border-bottom: 2px  solid skyblue;
+    margin: 20px 0px;
+	font-size: 25px;
+	border-radius: 20%;
+}
+input focus{
+	outline: none;
+}
+button{
+	width: 80%;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	border: none;
+	background: green;
+	height: 30px;
+	border-radius: 25px;
+}
+button a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	padding: 5px 80px;
+	
+}
+
+input::placeholder{
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+
+}
+.forget{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.forget a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+	
